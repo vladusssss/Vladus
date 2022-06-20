@@ -1,0 +1,12 @@
+body{
+    background: rgb(255, 204, 204);
+    color: rgb(104, 0, 47);
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;}
+
+    .foto img, .f-d img{
+        width: 500px;
+        margin: 10px;
+    }

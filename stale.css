@@ -1,0 +1,135 @@
+body{
+    background: rgb(255, 204, 204);
+    color: rgb(104, 0, 47);
+    font-size: 15px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+    a {
+        color: rgb(197, 0, 0);
+        text-decoration: none;
+    }
+a:hover {
+    text-decoration:underline;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: rgb(48, 0, 84);
+}
+.info img{
+    margin: 40px;
+}
+.bio {
+    margin: 10px;
+}
+
+.info {
+    display: flex;
+}
+
+@media (max-width: 775px){
+.info{
+    text-align: center;
+    display: block;
+}
+}
+
+.info p {
+        color: brown;
+        margin: 0;
+        font-style: italic;
+        text-decoration: none;
+        letter-spacing: 1px;
+        word-spacing: 7px;
+    }
+.box{
+    max-width: 750px;
+    margin: auto;
+}
+.social{
+    background: rgb(141, 185, 211);
+/*box model*/
+    padding: 5px 5px 5px 5px;
+    border: 5px rgb(128, 71, 90);
+    border-style:dashed;
+    margin: 25px;}
+
+    #ia {
+        width: 250px;
+        border-radius: 175px;
+    }
+
+.bg-pink{
+    background: rgb(128, 71, 90);
+    border-radius: 8px;
+    margin: 10px 10px 10px 10px;
+}
+
+    .card{
+
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+    .card h2{
+        margin-bottom: 5px;
+    }
+        #foto{
+            padding: 20px;
+        }
+
+    .list{
+        padding: 0 175px;
+    }
+
+    .list li{
+        margin-bottom: 10px;
+    }
+
+    .t {
+        width: 100%;
+    }
+
+   /* .t td{
+        padding-bottom: 10px;
+    }*/
+   /* .t tr:nth-child(even){
+        background: blueviolet;
+    }*/
+    .info li{
+        list-style:circle;
+    }
+    .q h2{
+        text-align: center;
+    }
+    .s label{
+        display: block;
+        font-size: 16px;
+    }
+    .s input, .s textarea{
+        width: 100%;
+       box-sizing: border-box;
+       border: none;
+       background: rgb(255, 217, 250);
+       border-bottom: 3px solid rgb(90, 36, 36);
+       color: black;
+        padding: 15px 0 10px;
+        outline: none;
+        font-family: inherit;
+    }
+    .r {
+        display: flex;
+    }
+    #k{
+        background: rgb(141, 185, 211);
+        color: rgb(104, 0, 47);
+        padding: 10px 10px;
+        border: 5px rgb(104, 0, 47);
+        border-style: double;
+        font-family: inherit;
+        cursor:pointer;
+    }
+
+#k:hover{
+    opacity: 0.9;
+}
